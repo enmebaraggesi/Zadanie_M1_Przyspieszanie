@@ -34,6 +34,7 @@ public class Application {
 
         // Samochód 4
         Car peugeot307_20diesel = new Car(diesel20);
+        peugeot307_20diesel.setMaxSpeed(140); // Ustawiam limit prędkości
         peugeot307_20diesel.gainSpeed(100, 60);
         peugeot307_20diesel.brake(50);
         peugeot307_20diesel.gainSpeed(75, 3);
